@@ -1,0 +1,32 @@
+{
+  "name": "web-chat-bd3-2025",
+  "version": "1.0.0",
+  "description": "um web chat simples e rápido para a demonstração de uso do mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jotaramalho/web-chat-bd3-2025.git"
+  },
+  "keywords": [
+    "mongodb",
+    "chat",
+    "web"
+  ],
+  "author": "João Pedro Ramalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jotaramalho/web-chat-bd3-2025/issues"
+  },
+  "homepage": "https://github.com/Jotaramalho/web-chat-bd3-2025#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
